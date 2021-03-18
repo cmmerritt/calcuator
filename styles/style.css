@@ -1,5 +1,11 @@
 
 body {
+   --color1: hsla(268, 17%, 66%, 1);
+   --color2: hsla(273, 14%, 59%, 1);
+   --color3: hsla(316, 9%, 43%, 1);
+   --color4: hsla(169, 11%, 30%, 1);
+   --color5: hsla(175, 31%, 23%, 1);
+   
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
@@ -19,7 +25,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
 
 main {
@@ -31,18 +37,28 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--color2);
     width: 1000px;
     max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: solid 2px var(--color1);
+}
+
+.calcmath {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    color: var(--color5);
+    font-size: 30px;
 }
 
 header {
