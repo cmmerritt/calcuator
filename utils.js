@@ -13,3 +13,10 @@ export function multiply(x, y) {
 export function divide(x, y) {
     return x / y;
 }
+
+// create function
+
+// export function myOperation() {  
+   // const mathList = document.getElementById("math-list");  
+    
+  

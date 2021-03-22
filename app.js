@@ -11,3 +11,4 @@ addButton.addEventListener('click', handleAddClick);
 subtractButton.addEventListener('click', handleSubtractClick);
 multiplyButton.addEventListener('click', handleMultiplyClick);
 divideButton.addEventListener('click', handleDivideClick);
+
